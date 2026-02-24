@@ -2,7 +2,7 @@
 
 function addD4Image1() {
   const img = document.createElement("img");
-  img.src = "/d4 images/dice4face1.png";
+  img.src = "d4 images/dice4face1.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.borderRadius = "10px";
@@ -10,7 +10,7 @@ function addD4Image1() {
 }
 function addD4Image2() {
   const img = document.createElement("img");
-  img.src = "/d4 images/dice4face2.png";
+  img.src = "d4 images/dice4face2.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.borderRadius = "10px";
@@ -18,7 +18,7 @@ function addD4Image2() {
 }
 function addD4Image3() {
   const img = document.createElement("img");
-  img.src = "/d4 images/dice4face3.png";
+  img.src = "d4 images/dice4face3.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.borderRadius = "10px";
@@ -26,7 +26,7 @@ function addD4Image3() {
 }
 function addD4Image4() {
   const img = document.createElement("img");
-  img.src = "/d4 images/dice4face4.png";
+  img.src = "d4 images/dice4face4.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.borderRadius = "10px";
@@ -36,7 +36,7 @@ function addD4Image4() {
 
 function addD6Image1() {
   const img = document.createElement("img");
-  img.src = "/d6 images/dice-six-faces-one.png";
+  img.src = "d6 images/dice-six-faces-one.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -45,7 +45,7 @@ function addD6Image1() {
 }
 function addD6Image2() {
   const img = document.createElement("img");
-  img.src = "/d6 images/dice-six-faces-two.png";
+  img.src = "d6 images/dice-six-faces-two.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -54,7 +54,7 @@ function addD6Image2() {
 }
 function addD6Image3() {
   const img = document.createElement("img");
-  img.src = "/d6 images/dice-six-faces-three.png";
+  img.src = "d6 images/dice-six-faces-three.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -63,7 +63,7 @@ function addD6Image3() {
 }
 function addD6Image4() {
   const img = document.createElement("img");
-  img.src = "/d6 images/dice-six-faces-four.png";
+  img.src = "d6 images/dice-six-faces-four.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -72,7 +72,7 @@ function addD6Image4() {
 }
 function addD6Image5() {
   const img = document.createElement("img");
-  img.src = "/d6 images/dice-six-faces-five.png";
+  img.src = "d6 images/dice-six-faces-five.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -81,7 +81,7 @@ function addD6Image5() {
 }
 function addD6Image6() {
   const img = document.createElement("img");
-  img.src = "/d6 images/dice-six-faces-six.png";
+  img.src = "d6 images/dice-six-faces-six.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -91,7 +91,7 @@ function addD6Image6() {
 
 function addD8Image1() {
   const img = document.createElement("img");
-  img.src = "/d8 images/d8image1.png";
+  img.src = "d8 images/d8image1.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -100,7 +100,7 @@ function addD8Image1() {
 }
 function addD8Image2() {
   const img = document.createElement("img");
-  img.src = "/d8 images/d8image2.png";
+  img.src = "d8 images/d8image2.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -109,7 +109,7 @@ function addD8Image2() {
 }
 function addD8Image3() {
   const img = document.createElement("img");
-  img.src = "/d8 images/d8image3.png";
+  img.src = "d8 images/d8image3.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -118,7 +118,7 @@ function addD8Image3() {
 }
 function addD8Image4() {
   const img = document.createElement("img");
-  img.src = "/d8 images/d8image4.png";
+  img.src = "d8 images/d8image4.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -127,7 +127,7 @@ function addD8Image4() {
 }
 function addD8Image5() {
   const img = document.createElement("img");
-  img.src = "/d8 images/d8image5.png";
+  img.src = "d8 images/d8image5.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -136,7 +136,7 @@ function addD8Image5() {
 }
 function addD8Image6() {
   const img = document.createElement("img");
-  img.src = "/d8 images/d8image6.png";
+  img.src = "d8 images/d8image6.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -145,7 +145,7 @@ function addD8Image6() {
 }
 function addD8Image7() {
   const img = document.createElement("img");
-  img.src = "/d8 images/d8image7.png";
+  img.src = "d8 images/d8image7.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -154,7 +154,7 @@ function addD8Image7() {
 }
 function addD8Image8() {
   const img = document.createElement("img");
-  img.src = "/d8 images/d8image8.png";
+  img.src = "d8 images/d8image8.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -165,7 +165,7 @@ function addD8Image8() {
 
 function addD10Image1() {
   const img = document.createElement("img");
-  img.src = "/d10 images/d10image1.png";
+  img.src = "d10 images/d10image1.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -174,7 +174,7 @@ function addD10Image1() {
 }
 function addD10Image2() {
   const img = document.createElement("img");
-  img.src = "/d10 images/d10image2.png";
+  img.src = "d10 images/d10image2.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -183,7 +183,7 @@ function addD10Image2() {
 }
 function addD10Image3() {
   const img = document.createElement("img");
-  img.src = "/d10 images/d10image3.png";
+  img.src = "d10 images/d10image3.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -192,7 +192,7 @@ function addD10Image3() {
 }
 function addD10Image4() {
   const img = document.createElement("img");
-  img.src = "/d10 images/d10image4.png";
+  img.src = "d10 images/d10image4.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -201,7 +201,7 @@ function addD10Image4() {
 }
 function addD10Image5() {
   const img = document.createElement("img");
-  img.src = "/d10 images/d10image5.png";
+  img.src = "d10 images/d10image5.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -210,7 +210,7 @@ function addD10Image5() {
 }
 function addD10Image6() {
   const img = document.createElement("img");
-  img.src = "/d10 images/d10image6.png";
+  img.src = "d10 images/d10image6.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -219,7 +219,7 @@ function addD10Image6() {
 }
 function addD10Image7() {
   const img = document.createElement("img");
-  img.src = "/d10 images/d10image7.png";
+  img.src = "d10 images/d10image7.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -228,7 +228,7 @@ function addD10Image7() {
 }
 function addD10Image8() {
   const img = document.createElement("img");
-  img.src = "/d10 images/d10image8.png";
+  img.src = "d10 images/d10image8.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -237,7 +237,7 @@ function addD10Image8() {
 }
 function addD10Image9() {
   const img = document.createElement("img");
-  img.src = "/d10 images/d10image9.png";
+  img.src = "d10 images/d10image9.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -246,7 +246,7 @@ function addD10Image9() {
 }
 function addD10Image10() {
   const img = document.createElement("img");
-  img.src = "/d10 images/d10image10.png";
+  img.src = "d10 images/d10image10.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -257,7 +257,7 @@ function addD10Image10() {
 
 function addD12Image1() {
   const img = document.createElement("img");
-  img.src = "/d12 images/d12image1.png";
+  img.src = "d12 images/d12image1.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -266,7 +266,7 @@ function addD12Image1() {
 }
 function addD12Image2() {
   const img = document.createElement("img");
-  img.src = "/d12 images/d12image2.png";
+  img.src = "d12 images/d12image2.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -275,7 +275,7 @@ function addD12Image2() {
 }
 function addD12Image3() {
   const img = document.createElement("img");
-  img.src = "/d12 images/d12image3.png";
+  img.src = "d12 images/d12image3.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -284,7 +284,7 @@ function addD12Image3() {
 }
 function addD12Image4() {
   const img = document.createElement("img");
-  img.src = "/d12 images/d12image4.png";
+  img.src = "d12 images/d12image4.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -293,7 +293,7 @@ function addD12Image4() {
 }
 function addD12Image5() {
   const img = document.createElement("img");
-  img.src = "/d12 images/d12image5.png";
+  img.src = "d12 images/d12image5.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -302,7 +302,7 @@ function addD12Image5() {
 }
 function addD12Image6() {
   const img = document.createElement("img");
-  img.src = "/d12 images/d12image6.png";
+  img.src = "d12 images/d12image6.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -311,7 +311,7 @@ function addD12Image6() {
 }
 function addD12Image7() {
   const img = document.createElement("img");
-  img.src = "/d12 images/d12image7.png";
+  img.src = "d12 images/d12image7.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -320,7 +320,7 @@ function addD12Image7() {
 }
 function addD12Image8() {
   const img = document.createElement("img");
-  img.src = "/d12 images/d12image8.png";
+  img.src = "d12 images/d12image8.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -329,7 +329,7 @@ function addD12Image8() {
 }
 function addD12Image9() {
   const img = document.createElement("img");
-  img.src = "/d12 images/d12image9.png";
+  img.src = "d12 images/d12image9.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -338,7 +338,7 @@ function addD12Image9() {
 }
 function addD12Image10() {
   const img = document.createElement("img");
-  img.src = "/d12 images/d12image10.png";
+  img.src = "d12 images/d12image10.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -347,7 +347,7 @@ function addD12Image10() {
 }
 function addD12Image11() {
   const img = document.createElement("img");
-  img.src = "/d12 images/d12image11.png";
+  img.src = "d12 images/d12image11.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -356,7 +356,7 @@ function addD12Image11() {
 }
 function addD12Image12() {
   const img = document.createElement("img");
-  img.src = "/d12 images/d12image12.png";
+  img.src = "d12 images/d12image12.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -368,7 +368,7 @@ function addD12Image12() {
 
 function addD20Image1() {
   const img = document.createElement("img");
-  img.src = "/d20 images/d20image1.png";
+  img.src = "d20 images/d20image1.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -377,7 +377,7 @@ function addD20Image1() {
 }
 function addD20Image2() {
   const img = document.createElement("img");
-  img.src = "/d20 images/d20image2.png";
+  img.src = "d20 images/d20image2.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -386,7 +386,7 @@ function addD20Image2() {
 }
 function addD20Image3() {
   const img = document.createElement("img");
-  img.src = "/d20 images/d20image3.png";
+  img.src = "d20 images/d20image3.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -395,7 +395,7 @@ function addD20Image3() {
 }
 function addD20Image4() {
   const img = document.createElement("img");
-  img.src = "/20 images/d20image4.png";
+  img.src = "20 images/d20image4.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -404,7 +404,7 @@ function addD20Image4() {
 }
 function addD20Image5() {
   const img = document.createElement("img");
-  img.src = "/d20 images/d20image5.png";
+  img.src = "d20 images/d20image5.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -413,7 +413,7 @@ function addD20Image5() {
 }
 function addD20Image6() {
   const img = document.createElement("img");
-  img.src = "/d20 images/d20image6.png";
+  img.src = "d20 images/d20image6.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -422,7 +422,7 @@ function addD20Image6() {
 }
 function addD20Image7() {
   const img = document.createElement("img");
-  img.src = "/d20 images/d20image7.png";
+  img.src = "d20 images/d20image7.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -431,7 +431,7 @@ function addD20Image7() {
 }
 function addD20Image8() {
   const img = document.createElement("img");
-  img.src = "/d20 images/d20image8.png";
+  img.src = "d20 images/d20image8.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -440,7 +440,7 @@ function addD20Image8() {
 }
 function addD20Image9() {
   const img = document.createElement("img");
-  img.src = "/d20 images/d20image9.png";
+  img.src = "d20 images/d20image9.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -449,7 +449,7 @@ function addD20Image9() {
 }
 function addD20Image10() {
   const img = document.createElement("img");
-  img.src = "/d20 images/d20image10.png";
+  img.src = "d20 images/d20image10.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -458,7 +458,7 @@ function addD20Image10() {
 }
 function addD20Image11() {
   const img = document.createElement("img");
-  img.src = "/d20 images/d20image11.png";
+  img.src = "d20 images/d20image11.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -467,7 +467,7 @@ function addD20Image11() {
 }
 function addD20Image12() {
   const img = document.createElement("img");
-  img.src = "/d20 images/d20image12.png";
+  img.src = "d20 images/d20image12.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -476,7 +476,7 @@ function addD20Image12() {
 }
 function addD20Image13() {
   const img = document.createElement("img");
-  img.src = "/d20 images/d20image13.png";
+  img.src = "d20 images/d20image13.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -485,7 +485,7 @@ function addD20Image13() {
 }
 function addD20Image14() {
   const img = document.createElement("img");
-  img.src = "/d20 images/d20image14.png";
+  img.src = "d20 images/d20image14.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -494,7 +494,7 @@ function addD20Image14() {
 }
 function addD20Image15() {
   const img = document.createElement("img");
-  img.src = "/d20 images/d20image15.png";
+  img.src = "d20 images/d20image15.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -503,7 +503,7 @@ function addD20Image15() {
 }
 function addD20Image16() {
   const img = document.createElement("img");
-  img.src = "/d20 images/d20image16.png";
+  img.src = "d20 images/d20image16.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -512,7 +512,7 @@ function addD20Image16() {
 }
 function addD20Image17() {
   const img = document.createElement("img");
-  img.src = "/d20 images/d20image17.png";
+  img.src = "d20 images/d20image17.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -521,7 +521,7 @@ function addD20Image17() {
 }
 function addD20Image18() {
   const img = document.createElement("img");
-  img.src = "/d20 images/d20image18.png";
+  img.src = "d20 images/d20image18.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -530,7 +530,7 @@ function addD20Image18() {
 }
 function addD20Image19() {
   const img = document.createElement("img");
-  img.src = "/d20 images/d20image19.png";
+  img.src = "d20 images/d20image19.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
@@ -539,7 +539,7 @@ function addD20Image19() {
 }
 function addD20Image20() {
   const img = document.createElement("img");
-  img.src = "/d20 images/d20image20.png";
+  img.src = "d20 images/d20image20.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
