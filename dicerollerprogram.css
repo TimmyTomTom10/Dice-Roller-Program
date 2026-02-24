@@ -1,0 +1,182 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(180, 100%, 93%);
+    overflow: auto;
+}
+#diceRollerHeading{
+    text-align: center;
+    font-size: 45px;
+    animation: colorChange 10s infinite;
+}
+#diceAmountInput{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#diceRollerLabel{
+    align-self: center;
+}
+#diceRoller{
+    background-color: rgb(0, 153, 255);
+    margin-left: 10px;
+    border: none;
+    color: aliceblue;
+    border-radius: 5px;
+    height: 30px;
+}
+#diceRoller:hover{
+    background-color: rgb(91, 190, 255);
+    cursor: pointer;
+}
+#diceRoller:active{
+    background-color: rgb(141, 209, 255);
+
+}
+
+#diceChoice{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 20px;
+    width: 80%;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    border: 2px solid #444;
+    border-radius: 4px;
+    background-color: aliceblue;
+    align-self: center;
+}
+#diceChoice input[type="radio"] {
+  opacity: 40;
+  width: 0;
+}
+.diceLabels{
+    width: 50px;
+    padding: none;
+}
+#d4image:hover{
+    background-color: rgb(255, 198, 198);
+}
+#d6image:hover{
+    background-color: rgb(255, 224, 198);
+}
+#d8image:hover{
+    background-color: rgb(255, 251, 198);
+}
+#d10image:hover{
+    background-color: rgb(211, 255, 198);
+}
+#d12image:hover{
+    background-color: rgb(198, 229, 255);
+}
+#d20image:hover{
+    background-color: rgb(220, 198, 255);
+}
+
+
+.diceLabels:hover{
+    cursor:pointer;
+    border-radius: 5px;
+    border-radius: 4px;
+}
+.diceActualLabels:has(input:checked) img{
+    border-radius: 4px;
+    
+}
+#d4label:has(input:checked) img{
+    background-color: rgb(255, 198, 198);
+    animation: redGlow 3s ease-in-out infinite;
+
+}
+#d6label:has(input:checked) img{
+    background-color: rgb(255, 224, 198);
+    animation: orangeGlow 3s ease-in-out infinite;
+}
+#d8label:has(input:checked) img{
+    background-color: rgb(255, 251, 198);
+    animation: yellowGlow 3s ease-in-out infinite;
+}
+#d10label:has(input:checked) img{
+    background-color: rgb(211, 255, 198);
+    animation: greenGlow 3s ease-in-out infinite;
+}
+#d12label:has(input:checked) img{
+    background-color: rgb(198, 229, 255);
+    animation: blueGlow 3s ease-in-out infinite;
+}
+#d20label:has(input:checked) img{
+    background-color: rgb(220, 198, 255);
+    animation: purpleGlow 3s ease-in-out infinite;
+}
+#dieResultsSum{
+    align-self: center;
+    margin: none;
+}
+#diceResults{
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 5vh;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin: none;
+}
+#diceSum{
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 5vh;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+#dieImageResults{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    border-radius: 7px;
+    height: 50vh;
+    width: 95%;
+
+}
+
+
+@keyframes colorChange {
+        0%{color: hsl(0, 100%, 62%)}
+        20%{color: hsl(31, 100%, 50%)}
+        40%{color: hsl(61, 100%, 50%)}
+        60%{color: hsl(114, 100%, 50%)}
+        80%{color: hsl(204, 100%, 50%)}
+        100%{color: hsl(286, 100%, 50%)}
+}
+@keyframes redGlow {
+  50% {
+    box-shadow: 0 0 15px rgb(255,0,0);
+  }
+}
+@keyframes orangeGlow {
+  50% {
+    box-shadow: 0 0 15px rgb(255, 145, 0);
+  }
+}
+@keyframes yellowGlow {
+  50% {
+    box-shadow: 0 0 15px rgb(255, 251, 0);
+  }
+}
+@keyframes greenGlow {
+  50% {
+    box-shadow: 0 0 15px rgb(0, 255, 55);
+  }
+}
+@keyframes blueGlow {
+  50% {
+    box-shadow: 0 0 15px rgb(0, 60, 255);
+  }
+}
+@keyframes purpleGlow {
+  50% {
+    box-shadow: 0 0 15px rgb(140, 0, 255);
+  }
+}

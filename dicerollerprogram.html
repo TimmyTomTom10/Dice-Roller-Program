@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller Program</title>
+    <link rel="stylesheet" href="dicerollerprogram.css">
+    <script src="https://kit.fontawesome.com/4c3da5b080.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <h1 id="diceRollerHeading"><b>Dice Roller</b></h1>
+    <div id="diceAmountInput">
+        <label for="numOfDice" id="numOfDiceLabel">
+        Number of Dice:
+        <input type="number" id="numOfDice" min="1" max="10" value="1">
+    </label>
+    <button id="diceRoller">Roll Dice</button>
+    </div>
+    <br>
+     <div id="diceChoice">
+            <label for="d4" id="d4label" class="diceActualLabels">
+                <img src="d4image.png" id="d4image" class="diceLabels">
+                <input type="radio" id="d4" value="d4" name="diceTypes">
+            </label>
+
+            <label for="d6" id="d6label" class="diceActualLabels">
+                <img src="d6image.png" id="d6image" class="diceLabels">
+                <input type="radio" id="d6" value="d6" name="diceTypes">
+            </label>
+
+            <label for="d8" id="d8label" class="diceActualLabels">
+                <img src="d8image.png" id="d8image" class="diceLabels">
+                <input type="radio" id="d8" value="d8" name="diceTypes">
+            </label>
+           
+            <label for="d10" id="d10label" class="diceActualLabels">
+                <img src="d10image.png" id="d10image" class="diceLabels">
+                <input type="radio" id="d10" value="d10" name="diceTypes">
+            </label>
+
+            <label for="d12" id="d12label" class="diceActualLabels">
+                <img src="d12image.png" id="d12image" class="diceLabels">
+                <input type="radio" id="d12" value="d12" name="diceTypes">
+            </label>
+
+            <label for="d20" id="d20label" class="diceActualLabels">
+                <img src="d20image.png" id="d20image" class="diceLabels">
+                <input type="radio" id="d20" value="d20" name="diceTypes">
+            </label>
+        </div>
+
+        <div id="dieResultsSum">
+            <h3 id="diceResults">Dice: </h3>
+            <h3 id="diceSum">Sum: </h3>
+        </div>
+        <div id="dieImageResults">
+
+        </div>
+    <script src="dicerollerprogram.js"></script>
+</body>
+</html>
