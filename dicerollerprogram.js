@@ -395,7 +395,7 @@ function addD20Image3() {
 }
 function addD20Image4() {
   const img = document.createElement("img");
-  img.src = "20 images/d20image4.png";
+  img.src = "d20 images/d20image4.png";
   img.style.width = "100px";
   img.style.height = "100px";
   img.style.margin = "5px";
